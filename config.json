@@ -1,0 +1,42 @@
+{
+    "plans_name": "DOSTA-Net",
+    
+    "data_preprocessed":"datasets/",
+    "dataset_name": "sameBackground_augmentedVessel_strong4",
+    "data_identifier": "",
+    
+    "exp_results":"results",
+
+    "preprocessor_name": "DefaultPreprocessor",
+    
+    "encoder": "resnet34_3D",
+
+    "imgSize":256,
+
+    "neighbor_num": 3,
+    "is_shuffle": 1,
+    "is_DTAM": 1,
+    "ratio_swap": 10,
+    
+    "annotated_classes_key": [0,1],
+    "foreground_labels":[1],
+ 
+    
+    "beta1":0.5,
+    "beta2": 0.999,
+    "batch_size": 32,
+
+    "D_step":1,
+    "weight_recon":0.5,
+    "weight_ori":2,
+    "weight_seg":1,
+    "weight_gan":1,
+    "initial_lr": 1e-4,
+    "weight_decay": 1e-4, 
+    "oversample_foreground_percent": 0.33,
+    "num_iterations_per_epoch": 500,
+    "num_val_iterations_per_epoch": 10,
+    "num_epochs": 51
+
+
+}
