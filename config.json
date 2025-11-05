@@ -34,7 +34,7 @@
     "initial_lr": 1e-4,
     "weight_decay": 1e-4, 
     "oversample_foreground_percent": 0.33,
-    "num_iterations_per_epoch": 500,
+    "num_iterations_per_epoch": 1000,
     "num_val_iterations_per_epoch": 10,
     "num_epochs": 51
 
