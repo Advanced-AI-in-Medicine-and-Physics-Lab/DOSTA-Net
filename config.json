@@ -20,7 +20,6 @@
     
     "annotated_classes_key": [0,1],
     "foreground_labels":[1],
- 
     
     "beta1":0.5,
     "beta2": 0.999,
