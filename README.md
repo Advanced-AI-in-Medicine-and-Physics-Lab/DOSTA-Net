@@ -17,7 +17,7 @@ Artery extraction from X-ray coronary angiography (XCA) images is essential for 
 
 ```
 .
-├── datasets/External_30XCA  # Raw data and external dataset files
+├── datasets                 # Raw data and external dataset files
 ├── loss/                    # Custom loss functions and criterion definitions
 ├── models/                  # Network architectures 
 ├── util/                    # Utility functions 
