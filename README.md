@@ -17,11 +17,16 @@ Artery extraction from X-ray coronary angiography (XCA) images is essential for 
 
 ```
 .
-├── config.json          # Configuration file for training/inference
-├── dataset.py           # Dataset loading and preprocessing
-├── inference.py         # Inference script using pretrained model
-├── training_ours.py     # Training pipeline
-└── README.md            # Project documentation
+├── datasets/External_30XCA  # Raw data and external dataset files
+├── loss/                    # Custom loss functions and criterion definitions
+├── models/                  # Network architectures 
+├── util/                    # Utility functions 
+├── LICENSE                  # Project license
+├── README.md                # Project documentation
+├── config.json              # Configuration file for training/inference hyperparameters
+├── dataset.py               # Dataset loading and preprocessing logic
+├── inference.py             # Script for running model inference
+└── requirements.txt         # List of required Python dependencies
 ```
 
 ---
