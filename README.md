@@ -77,12 +77,12 @@ Make sure `config.json` is properly set (dataset paths, hyperparameters, etc.).
 If you find this work helpful, please cite:
 
 ```bibtex
-@article{hao2025dosta,
-  title={DOSTA-Net: Domain-Shuffle Temporal Attention Network for Vessel Extraction in X-Ray Coronary Angiography Using Synthetic Data},
-  author={Hao, Jinkui and others},
-  journal={TBD},
-  year={2025}
-}
+@ARTICLE{11369450,
+  author={Hao, Jinkui and Cantrell, Donald R. and Abdalla, Ramez and Ansari, Sameer A. and Zhou, Bo},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={DOSTA-Net: Domain-Shuffle Temporal Attention Network for Vessel Extraction in X-Ray Coronary Angiography Using Synthetic Data}, 
+  year={2026},
+  doi={10.1109/TMI.2026.3659754}}
 ```
 
 
